@@ -5,10 +5,11 @@ import tempfile
 import os
 
 # Load the YOLO model (adjust the path to your model)
-model = YOLO(r"C:\Users\Caleb\Downloads\Signature_forgery_model.pt")  # Replace with your model path
+model_path='Signature_forgery_model.pt'
+model = YOLO(model_path)  # Replace with your model path
 
 # Streamlit app title
-st.title("Signature Forgery Detection")
+st.title("Handwritten Signature Forgery Detection")
 
 # File uploader for the user to upload an image
 uploaded_file = st.file_uploader("Upload a signature image", type=["jpg", "jpeg", "png"])
