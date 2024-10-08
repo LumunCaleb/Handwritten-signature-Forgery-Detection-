@@ -1,5 +1,6 @@
 streamlit
 ultralytics
-Pillow
-torch
 opencv-python
+gtts
+pyttsx3
+PyPDF2
