@@ -4,3 +4,5 @@ opencv-python
 gtts
 pyttsx3
 PyPDF2
+torch
+opencv-python
